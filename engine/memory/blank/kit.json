@@ -1,0 +1,11 @@
+{
+  "id": "blank",
+  "name": "空白记忆套件",
+  "kind": "template",
+  "db": "memory.db",
+  "l1": "l1.db",
+  "l3": "L3",
+  "views": [
+    "记忆.md"
+  ]
+}

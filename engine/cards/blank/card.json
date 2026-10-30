@@ -1,0 +1,21 @@
+{
+  "id": "blank",
+  "name": "空白角色（只有骨架，没有内容）",
+  "version": "v0",
+  "kind": "template",
+  "memory_id": "blank",
+  "scenes": [
+    {
+      "id": "日常",
+      "label": "日常对话",
+      "files": [
+        "persona.md"
+      ],
+      "memory_scene": "日常",
+      "area": "通用",
+      "skill": null
+    }
+  ],
+  "locked": [],
+  "note": "这张卡**故意是空的**：没有任何示例句、没有人设、没有口播。从零写一个角色时用它，别改示例卡——改示例会不知不觉变成同一个角色。"
+}

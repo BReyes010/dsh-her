@@ -1,0 +1,42 @@
+{
+  "name": "dsh-her",
+  "version": "0.1.1",
+  "description": "把「人格与记忆」这套四层记忆变成 DSH 里能用的一件东西：设置页选卡选模式、一键复制注入包、新建角色、生成出差包。引擎是纯 Python（也能脱离 DSH 单独跑）。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "persona",
+    "memory",
+    "agent"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "tests",
+    "engine"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": false
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BReyes010/dsh-her.git"
+  }
+}

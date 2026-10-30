@@ -1,0 +1,25 @@
+{
+  "tasks": {
+    "写稿": {
+      "cards": [
+        "口播"
+      ],
+      "requires": [
+        "material:本期"
+      ],
+      "budget_han": 6000
+    },
+    "直播": {
+      "cards": [
+        "口播"
+      ],
+      "requires": [],
+      "budget_han": 4000
+    },
+    "纯聊天": {
+      "cards": [],
+      "requires": [],
+      "budget_han": 3000
+    }
+  }
+}

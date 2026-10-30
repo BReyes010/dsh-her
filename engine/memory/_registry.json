@@ -1,0 +1,29 @@
+{
+  "default_kit": "dafeiyu-template",
+  "kits": [
+    {
+      "id": "blank",
+      "name": "空白记忆套件",
+      "kind": "template",
+      "db": "blank/memory.db",
+      "l1": "blank/l1.db",
+      "l3": "blank/L3",
+      "views": [
+        "blank/记忆.md"
+      ],
+      "dir": "blank"
+    },
+    {
+      "id": "dafeiyu-template",
+      "name": "示例角色的记忆套件",
+      "kind": "template",
+      "db": "dafeiyu-template/memory.db",
+      "l1": "dafeiyu-template/l1.db",
+      "l3": "dafeiyu-template/L3",
+      "views": [
+        "dafeiyu-template/记忆.md"
+      ],
+      "dir": "dafeiyu-template"
+    }
+  ]
+}

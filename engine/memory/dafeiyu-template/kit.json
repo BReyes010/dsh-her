@@ -1,0 +1,16 @@
+{
+  "id": "dafeiyu-template",
+  "kind": "template",
+  "label": "模板空套件",
+  "db": "memory.db",
+  "l1": "l1.db",
+  "l3": "L3/",
+  "views": [
+    "记忆.md",
+    "场景投影.md"
+  ],
+  "cards": [
+    "dafeiyu-template"
+  ],
+  "name": "示例角色的记忆套件"
+}

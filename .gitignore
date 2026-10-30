@@ -1,0 +1,20 @@
+# 运行时数据（真实记忆不进仓库）
+engine/记忆/memory.db
+engine/记忆/记忆.md
+engine/记忆/场景.md
+engine/记忆/L3/
+engine/备份/
+engine/启动包/历史/
+engine/启动包/*.txt
+engine/入口/_签发.json
+engine/入口/_批准.json
+engine/入口/mcp.log
+engine/入口/mcp-token.txt
+engine/入口/任务看板.json
+engine/入口/任务看板.md
+engine/提案/_*.json
+engine/memory/*/memory.db-journal
+__pycache__/
+*.pyc
+.tmp*
+node_modules/

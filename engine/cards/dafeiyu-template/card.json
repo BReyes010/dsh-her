@@ -1,0 +1,40 @@
+{
+  "id": "dafeiyu-template",
+  "name": "示例角色（模板·开源默认）",
+  "version": "v15",
+  "kind": "template",
+  "memory_id": "dafeiyu-template",
+  "scenes": [
+    {
+      "id": "日常",
+      "label": "日常对话",
+      "files": [
+        "persona.md"
+      ],
+      "memory_scene": "日常",
+      "area": "通用",
+      "skill": null
+    },
+    {
+      "id": "口播",
+      "label": "工作 · 技能「口播」",
+      "files": [
+        "persona.md",
+        "scenes/口播/work.md",
+        "scenes/口播/tech.md"
+      ],
+      "memory_scene": "工作",
+      "area": "工作",
+      "skill": "口播",
+      "note": "口播是工作区里的一个技能：work.md 放规范与样本，tech.md 放 TTS 技术条款。"
+    }
+  ],
+  "locked": [
+    "样本",
+    "B1–B4",
+    "反差规则",
+    "身份自觉",
+    "被质疑表"
+  ],
+  "note": "这是开源示例卡：带一份完整的内核示例，可以改，也可以从 cards/blank 从零写。示例卡里的句子会教你怎么写，但也会让新角色长得像示例——想避免就从空白卡开始。"
+}

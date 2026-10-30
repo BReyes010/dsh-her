@@ -1,0 +1,22 @@
+{
+  "_说明": "只读版 MCP：三个工具（search_notes / recall / get_snapshot），没有写能力。给不支持配置命令、只认 JSON 的客户端用。",
+  "_两种填法": "A) http 版需要先双击 入口\\启动-Her-MCP.cmd；B) stdio 版客户端会自己起进程。",
+  "mcpServers": {
+    "dafeiyu-readonly-stdio": {
+      "command": "C:\\Users\\{USER}\\.dsh\\dsh-runtimes\\dsh-next-primary-runtime\\dependencies\\python\\python.exe",
+      "args": [
+        "{ENGINE_ROOT}\\入口\\her-mcp-stdio.py"
+      ],
+      "env": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUTF8": "1"
+      }
+    },
+    "dafeiyu-readonly-http": {
+      "url": "http://127.0.0.1:8790/mcp?token=REPLACE_WITH_TOKEN",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_TOKEN"
+      }
+    }
+  }
+}

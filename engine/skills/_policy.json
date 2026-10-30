@@ -1,0 +1,5 @@
+{
+  "max_cards": 1,
+  "material_max_han": 1500,
+  "note": "max_cards 只管技能卡；素材与任务卡不占额度。改这个数字即启用多卡。"
+}

@@ -1,0 +1,4 @@
+# 这个 id 必须和包名完全一致，否则 DSH 认不出（表现为设置页 404 / 元信息读不到）
+- insert:
+    - id: dsh-her
+      name: dsh-her
